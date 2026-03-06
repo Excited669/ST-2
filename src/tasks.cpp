@@ -25,3 +25,4 @@ PoolCosts solvePoolTask() {
 
   return {concrete_cost, fence_cost};
 }
+

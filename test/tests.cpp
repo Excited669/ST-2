@@ -147,3 +147,4 @@ TEST(Task_Pool, ReturnsCorrectFenceCost) {
   PoolCosts costs = solvePoolTask();
   EXPECT_NEAR(costs.fence_cost, 16000.0 * kPi, kEps);
 }
+
